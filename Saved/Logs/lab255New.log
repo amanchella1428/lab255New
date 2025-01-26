@@ -10056,3 +10056,47 @@ FPackageName: Skipped package /Game/Characters/UEFN_Mannequin/Animations/Walk/M_
 [2025.01.26-18.33.35:772][909]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b6ca232f-1f2b-48b6-b8ff-f20f3f9a64a2}, Name=XV272K V3 (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=10.59
 [2025.01.26-18.33.35:773][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
 [2025.01.26-18.33.35:774][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: ================================================
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Total job queries 181, among them cache hits 11 (6.08%), DDC hits 154 (85.08%), Duplicates 4 (2.21%)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Tracking 166 distinct input hashes that result in 148 distinct outputs (89.16%)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: RAM used: 118.76 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Shaders Compiled: 12
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Jobs assigned 12, completed 12 (100%)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Average time worker was idle: 345.34 s
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.13 s
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Job execution time: average 43.58 s, max 141.23 s
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Job life time (pending + execution): average 43.67 s, max 141.28
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Shader code size: average 7.177 KiB, min 2.297 KiB, max 15.172 KiB
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 149.05 s
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Average processing rate: 0.08 jobs/sec
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Total thread time: 81.945 s
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Total thread preprocess time: 2.399 s
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Percentage time preprocessing: 2.93%
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Effective parallelization: 0.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 31.30 sec, max 31.30 sec, min 31.30 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 13.89 sec, max 13.89 sec, min 13.89 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 7.74 sec, max 22.15 sec, min 0.46 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 4.51 sec, max 8.58 sec, min 0.44 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 1.28 sec, max 1.63 sec, min 0.93 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                                 FLumenCardVS - 38.20% of total time (compiled    1 times, average 31.30 sec, max 31.30 sec, min 31.30 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.32% of total time (compiled    3 times, average 7.74 sec, max 22.15 sec, min 0.46 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                                 FLumenCardPS - 16.95% of total time (compiled    1 times, average 13.89 sec, max 13.89 sec, min 13.89 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.00% of total time (compiled    2 times, average 4.51 sec, max 8.58 sec, min 0.44 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 3.13% of total time (compiled    2 times, average 1.28 sec, max 1.63 sec, min 0.93 sec)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: === Material stats ===
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Materials Translated:    134
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Material Translation Only: 0.03 s (49%)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: Material Cache Hits: 30 (22%)
+[2025.01.26-18.34.47:115][123]LogShaderCompilers: Display: ================================================
+[2025.01.26-18.38.23:495][772]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1301.905396
+[2025.01.26-18.38.24:496][775]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-18.38.24:496][775]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1302.572876, Update Interval: 335.345917
