@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Nathan/Desktop/CGT255/lab255New/Content/Blueprints/BPC_AttackSystem.uasset",
+				"C:/Users/Nathan/Desktop/CGT255/lab255New/Content/Blueprints/CBP_SandboxCharacter.uasset",
 				"C:/Users/Owner/Documents/Unreal Projects/lab255New/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/Owner/Documents/Unreal Projects/lab255New/Content/Blueprints/GM_AnimationSample.uasset",
 				"C:/Users/Owner/Documents/Unreal Projects/lab255New/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
